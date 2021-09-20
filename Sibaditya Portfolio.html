@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="Awesome.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>Sibaditya Mitra Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img  class='profileImage'
+        src='file:///C:/Users/DELL/Downloads/8753776b-72ce-4709-9537-daaa71025c82.jpg'/>
+        <div class='herosectionDetails'>
+          <h1>Sibaditya Mitra</h1>
+          <h3>Cyber Security and Ethical Hacking</h3>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>What I Do...</h1>
+        <p>My name is Sibaditya Mitra and i am studying in Siksha 'O' Anusandhan University pursuing computer science and engineering.I have a keen interest in Cyber security and ethical hacking related.I also want to develop web pages and show my skill.This is my first web page in computer science .I have completed 10th and 12th from kv rourkela.In sports region in  kv i had won many prizes and i have participated in diffrent sports event and cultural event.In class 12th i am a house captain of my house and i am very thankful to teachers for giving this opportunity.I also like cricket and many other outside game.I want to became a web developer.Yes i am compatible in making web pages than other user as i am in computer science so i have learned many parts in web development .</p>
+      </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='file:///C:/Users/DELL/Downloads/html-logo-png-3%20(2).png'>
+          <img title='CSS' src='file:///C:/Users/DELL/Downloads/8cdf4c047e99f7389e76aa4e2e7e2803.png'>
+          <img title='Python' src='file:///C:/Users/DELL/Downloads/python-logo.png'>
+          <img title='Java' src='https://th.bing.com/th/id/OIP.ixRMHFf5pny9EDV8BcIHJgAAAA?pid=ImgDet&rs=1'>
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='file:///C:/Users/DELL/Downloads/1580817669_maxresdefault.jpg'/>
+            <div class='projectDescription'>
+              <h4>Creating Own Portfolio</h4>
+              <p>I have created this portfolio using html and css.HTML is for writing all the things like skills,project and css is for styling the html and look beautiful colorpage.In this portfolio i have mentioned all my details and those who want to connect me they can connect through below form</p>
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='file:///C:/Users/DELL/Downloads/R.png'/>
+            <div class='projectDescription'>
+              <h4>Text-To-Speech App</h4>
+              <p><I>Text-to-speech(TTS) is a type of assistive technology that reads digital text aloud.It is sometimes called “read aloud” technology.In this app user enters the text and text will converted to speech.All kinds of text files can be read aloud.TTS is very helpful for kids and adults who struggle with reading</I></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
