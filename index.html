@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Design Using HTML and Css</title>
+  <link  rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <div class="main">
+    <nav>
+      <div class="logo">
+        <img src=file:///C:/Users/DELL/Downloads/-11598445465wahfrdkyab-removebg-preview%20(2).png>
+      </div>
+      <div class="nav-links">
+        <ul>
+         <li><a href="hello.html"><li>Home</a></li>
+          <li><a href="#">Phone</a></li>
+          <li><a href="#">Acessories</a></li>
+          <li><a href="#">Cart</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <div class="homepage">
+      <title>Welcome to AI Tech</title>
+        <h1 class="Home"></h1> 
+    <a href=""><li>Home</li></a>
+      </div>
+    </div>
+    <div class="information">
+      <div class="overlay"></div>
+      <img src="file:///C:/Users/DELL/Downloads/bfa83d42-bf4e-4585-86a6-acdfdf572fcb-removebg-preview%20(1).png" class="mobile">
+      <div id="circle">
+        <div class="feature one">
+          <img src="file:///C:/Users/DELL/Downloads/845006fb4004.png">
+        <h1>Camera</h1>
+        <p>12MP, Wide Angle Lens,2x Optical zoom out</p>
+      </div>
+        <div class="feature two">
+          <img src="file:///C:/Users/DELL/Downloads/Screenshot__7697_-removebg-preview%20(2).png">
+          <h1>Processor</h1>
+        <p>Apple A12 Bionic ,3GB RAM ,64GB ROM</p>
+        </div>
+        <div class="feature three">
+        <img src="file:///C:/Users/DELL/Downloads/675455.png">
+        <h1>Display</h1>
+
+        <p>Liquid Retina HD Display ,6.10 inch</p>
+      </div>
+        <div class="feature four">
+          <img src="file:///C:/Users/DELL/Downloads/full_battery1600.png">
+          <h1>Battery</h1>
+        <p>3046mAh, 720Hrs Standby</p>
+        </div>
+      </div>
+    </div>
+<div class="controls">
+  <img src="file:///C:/Users/DELL/AppData/Local/Temp/Rar$DIa8036.37010/arrow.png" id="upBtn">
+  <h3>Features</h3>
+  <img src="file:///C:/Users/DELL/AppData/Local/Temp/Rar$DIa8036.37010/arrow.png"id="downBtn">
+</div>
+  </div>
+  <script>
+    var circle = document.getElementById("circle");
+    var upBtn = document.getElementById("upBtn");
+    var downBtn = document.getElementById("downBtn");
+    var rotatevalue=circle.style.transform;
+    var rotateSum;
+
+    upBtn.onclick=function(){
+      rotateSum=rotatevalue+"rotate(-90deg)";
+      circle.style.transform=rotateSum;
+      rotatevalue=rotateSum;
+    }
+    downBtn.onclick=function(){
+      rotateSum=rotatevalue+"rotate(90deg)";
+      circle.style.transform=rotateSum;
+      rotatevalue=rotateSum;
+    }
+  </script>
+
+</body>
+</html>
